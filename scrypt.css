@@ -1,3 +1,26 @@
 .courseForm label {
     display: block;
 }
+
+
+@media (max-width: 720px) {
+    body {
+        background-color:brown;
+    }
+
+
+    .fio {
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
+
+    #myPhoto {
+        width: 70%;
+        margin: 0 aut0;
+    }
+
+    #tglink {
+        display: none;
+    }
+}
